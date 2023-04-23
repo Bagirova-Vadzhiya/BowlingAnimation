@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="405dp"
+        android:layout_height="700dp"
+        android:background="@drawable/shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/track"
+        android:layout_width="360dp"
+        android:layout_height="990dp"
+        android:background="@drawable/track"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bowl1"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bowl" />
+
+    <ImageView
+        android:id="@+id/bowl2"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/bowl"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="217dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/bowl3"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/bowl"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="157dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/bowl4"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/bowl"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="178dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bowl5"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/bowl"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/bowl6"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/bowl"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="179dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ball" />
+
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
